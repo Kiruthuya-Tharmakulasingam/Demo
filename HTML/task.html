@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .main {
+            background-color: rgb(247, 223, 29);
+            color: rgb(2, 0, 3);
+            width: 20px;
+            height: 30px;
+
+
+
+        }
+
+        .x {
+            background-color: rgb(255, 255, 255);
+            color: black;
+        }
+
+        .container {
+            display: flex;
+            margin-left: 40px;
+
+        }
+
+        .A {
+            background-color: rgb(141, 127, 15);
+            padding-left: 20px;
+            padding-right: 20px;
+            color: white;
+        }
+
+        .B {
+            border-style: solid;
+            border-color: rgb(141, 127, 15);
+            padding-left: 20px;
+            padding-right: 20px;
+            color: rgb(141, 127, 15);
+        }
+
+        th,
+        td {
+            border: 1px solid;
+        }
+
+        table,
+        tr,
+        th,
+        td {
+            border-collapse: collapse;
+            text-align: center;
+            padding: 10px;
+            border-color: rgb(191, 183, 120);
+            border-width: 2px;
+            margin: auto;
+        }
+
+        caption {
+            color: rgb(112, 112, 112);
+            text-align: left;
+        }
+
+        h3 {
+            color: rgb(141, 127, 15);
+        }
+
+        .container-2 {
+            background-color: rgb(31, 31, 31);
+            font-family: 'Times New Roman', Times, serif;
+            width: 810px;
+            padding: 20px;
+            box-sizing: border-box;
+            margin: auto;
+        }
+
+        .S-1 {
+            color: rgb(71, 123, 165);
+        }
+
+        .S-2 {
+            color: #6f98ad;
+        }
+
+        .S-3 {
+            color: rgb(139, 139, 139);
+        }
+
+        .S-4 {
+            color: rgb(83, 91, 78);
+        }
+
+        .S-5 {
+            color: rgb(66, 87, 56);
+        }
+
+        .S-6 {
+            color: rgb(95, 72, 63);
+        }
+
+        footer {
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(204, 196, 137);
+        }
+
+        img {
+            width: 70px;
+            height: 60px;
+        }
+
+        .F-1 {
+            color: rgb(130, 175, 163);
+            font-family: cursive;
+        }
+
+        .box {
+            box-sizing: border-box;
+            border-style: 1px solid;
+            border-color: rgb(204, 196, 137);
+            box-shadow: 0px 0px 2px 2px;
+            margin: auto;
+            width: 900px;
+            height: auto;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="main">
+            <h4>JS</h4>
+        </div><br><br>
+        <div class="container">
+            <div class="A">
+                <h2>Variable Declaration <span class="x">&</span> </h2>
+            </div>
+            <div class="B">
+                <h2>Initialization</h2>
+            </div>
+        </div><br>
+
+        <table>
+            <caption><i><b>JavaScript: uses three main keywords to declare variables:</b></i></caption>
+            <tr>
+                <th>Keyword</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <th>Let</th>
+                <td>
+                    let Modern way (block-scoped). Preferred for values that will change
+                    reassignable</td>
+            </tr>
+            <tr>
+                <th>Const</th>
+                <td>Constant (block-scoped). Preferred for values that won’t change (but object
+                    properties can change)</td>
+            </tr>
+            <tr>
+                <th>Var</th>
+                <td>Old way (function-scoped). Avoid using in modern JS</td>
+            </tr>
+        </table>
+        <h3 class="c"><i> &#10132; Example:</i></h3>
+        <div class="container-2">
+            <p><span class="S-1">let</span>
+                <span class="S-2">&nbsp;age</span>
+                <span class="S-3">&nbsp;=&nbsp;</span>
+                <span class="S-4">25</span>
+                <span class="S-3">;</span>
+                &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span class="S-5">//can be reassigned to new value (but 25 itself is immutable)</span>
+            </p>
+            <p>
+                <span class="S-1">const PI&nbsp;</span>
+                <span class="S-3">=&nbsp;</span>
+                <span class="S-4">3.14</span>
+                <span class="S-3">;</span> &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span class="S-5">// can never be reassigned</span>
+            </p>
+            <p>
+                <span class="S-1">var&nbsp;</span>
+                <span class="S-2">name</span>
+                <span class="S-3">&nbsp;=&nbsp;</span>
+                <span class="S-6">"Alice"</span>
+                <span class="S-3">;</span> &nbsp; &nbsp;
+                <span class="S-5">// Avoid (leaks scope)</span>
+            </p>
+        </div><br><br>
+
+        <footer>
+            <div>
+                <h3 class="F-1">stepping stone in to tech l<span><img src="./Screenshot 2025-07-16 033304.png" alt=""
+                            style="width: 10px; height: 18px;"></span>fe</h3>
+            </div>
+            <div>
+                <img src="https://www.uki.life/wp-content/uploads/2024/09/source-image.png" alt="">
+            </div>
+
+        </footer>
+    </div>
+</body>
+
+</html>
