@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const car = {
+            color: "blue",
+            model: "ASB",
+            brand: "Benz",
+            type: "Suv"
+        }
+        console.log(`My car brand is ${car.brand} and type is ${car.type}`);
+        car.brand = "Audi"
+        console.log(car.brand);
+
+        const person = {
+            name: "Jey",
+            weight: 62.5
+
+        }
+        const reference = person;
+         person.weight = 72;
+         console.log(reference.weight);
+    </script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>A variable is a named container for storing data values.
+            It allows you to store data that you can use and modify later in your code.</li>
+        <li>You can declare variables using three keywords:</li>
+    <ol>
+        <li>var</li>
+         <ul>
+            <li>function-scoped</li>
+            <li>Can be re-declared and updated</li>
+            <li>Hoisted(can be accessed before declaration, but value will be undefined)</li>
+         </ul>
+        <li>let</li>
+         <ul>
+            <li>Block-scoped(only available inside{})</li>
+            <li>Cannot be re-declared in the same scope</li>
+            <li>Hoisted, but cannot access before declaration</li>
+         </ul>
+        <li>const</li>
+         <ul>
+            <li>Block-scoped</li>
+            <li>Cannot be changed after it's assigned</li>
+            <li>Must be initialized when declared</li>
+         </ul>
+    </ol>
+        <li>Variable Naming Rules</li>
+        <ul>
+            <li>Can contain letters, numbers, $, or _</li>
+            <li>Cannot start with a number</li>
+            <li>Cannot use reserved words like let, if, for as variable names</li>
+        </ul>
+   </ul>
+   <ul>
+        <li>Primitive Types (Immutable)</li>
+        <ol>
+            <li>String</li>
+            <li>Number</li>
+            <li>Boolean</li>
+            <li>undefined</li>
+            <li>Null</li>
+            <li>Symbol</li>
+            <li>Bigint</li>
+        </ol>
+        <li>class<span>&#11106</span>Object<span>&#11106</span>Property<span>&#11106</span>Value</li>
+    </ul>
+   <script>
+    // alert("JavaScript is running")
+    // console.log("Kiruthuya")
+     //console.log("20")
+
+     //let Declaration
+       // let age = 20 
+       // const PI = 3.14 
+       //let PI; // Declaration
+      // let PI= 3.14; // Initialization (Assignment)
+       //let PI = 3 // can never re declarate
+       //PI = 3 // can be re assigned
+       // console.log(PI);
+       
+    //const declaration
+        // const PI; // can't only be declaration
+        //const PI = 3.14; // Declaration and Initialization
+                           // can never be re-assigned
+                           // can never be re-declarate
+        // console.log(PI);
+
+       // let nothing = null; (Null)
+        //  let = "Null" (String)
+        // let num = 12; (Number)
+         // let isCool = true (Boolean)
+        //  let name ; (undefined)        
+        //let name = "" (String)
+
+        //  let name = { } ,let name = [] '(Mutable)
+        //let name = "{ }",let name = "[]" (Immutable)
+
+        // Variable declaration
+let num1 = "50";
+let num2 = "35";
+
+// Type casting
+let number1 = parseFloat(num1)
+let number2 = parseFloat(num2)
+
+// Calculation
+let add = number1 + number2
+let sub = number1 - number2
+let mul = number1 * number2
+let div = number1 / number2
+
+// Console.log
+console.log("number1 = " + num1);
+console.log("number2 = " + num2);
+console.log("Addition of Number1 and Number2 = " + add);
+console.log("Subtraction of Number1 and Number2 = " + sub);
+console.log("Multiplication of Number1 and Number2 = " + mul);
+console.log("Division of Number1 and Number2 = " + div);
+    </script>
+</body>
+</html>
+
+
+
+
+
+
